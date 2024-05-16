@@ -1,55 +1,75 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- font awesome inicia -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- font awesome termina -->
-    <link rel="shortcut icon" href="./images/fav-icon.jpg" type="image/x-icon">
+    <link rel="shortcut icon" href="./images/fav-icon.jpg" type="image/x-icon" />
     <!-- BS 5.1 inicia -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
     <!-- BS 5.1 termina -->
-    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="./css/estilos.css" />
     <title>Entrenamiento Personal</title>
 </head>
 <body>
-    <header>
-        <div class="container">
-            <h1>Entrenamiento Personal</h1>
-        </div> 
-    </header>
-    <nav>
-        <div class="navbar">
-            <h2>¡Trabajamos para tu bienestar!</h2>
-            <ul>
-                <li>
-                    <a href="index.html">Inicio</a>
-                </li>
-                <li>
-                    <a href="./pages/planes.html">Planes</a>
-                </li>
-                <li>
-                    <a href="./pages/galeria.html">Galería</a>
-                </li>
-                <li>
-                    <a href="./pages/acerca-de-mi.html">Acerca de mí</a>
-                </li>
-                <li>
-                    <a href="./pages/contacto.html">Contacto</a>
-                </li>
-            </ul>
+    <nav class="navbar navbar-expand-md navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Aun no tengo logo</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <!-- <span class="navbar-toggler-icon"></span> -->
+                <i class="fa-solid fa-qrcode"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Planes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Galería</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Acerca de mí</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contacto</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
-    <main>
-        <div class="main-container">
-            <h3>¡Aqui podras encontrar todo lo que necesitas para lograr tus objetivos!</h3>
-            <iframe width="300" height="300" src="https://www.youtube.com/embed/tFwQx9hkkkI?si=RFfSWI8fJ8ojgqFL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis illum eos eveniet tenetur ab dignissimos, omnis doloremque distinctio ipsam recusandae praesentium molestiae magni possimus doloribus sequi at dolor exercitationem inventore.</p>
+    <!-- Inicia jumbotron -->
+    <div class="p-5 bg-primary text-white jumbotron">
+        <h1>Entrenamiento Personal</h1>
+        <p>Lorem ipsum...</p>
+        <a href="#">
+            <button type="button" class="btn btn-primary">Conocer más</button>
+        </a>
+    </div>
+    <!-- Fin jumbotron -->
+    <!-- Atencion inicia -->
+    <div class="container-fluid nosotros">
+        <div class="row">
+            <div class="lado-izq col-sm-6">
+                <h2>¡La atención que estás buscando!</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis quidem, a illo error itaque sapiente deserunt repudiandae eligendi maxime assumenda, iusto laudantium eos et. Et fugit quasi explicabo dolorum tenetur accusamus, numquam expedita a quibusdam accusantium sapiente commodi dicta magni praesentium id, eius doloremque ab hic? Maiores saepe perferendis debitis!</p>
+            </div>
+            <div class="lado-der col-sm-6"></div>
         </div>
-    <footer>
-        <div class="footer">
-            <h4>Creado por DD</h4>
+    </div>
+    <!-- Atencion fin -->
+<footer class="container-fluid">
+    <div class="row footer">
+        <p>Todos los derechos reservados</p>
+        <div class="redes">
             <a href="https://www.google.com.uy/url?sa=i&url=https%3A%2F%2Fwww.facebook.com%2F%3Flocale%3Des_LA&psig=AOvVaw1UG5zILnuX2tMo0VUj2E70&ust=1714076556592000&source=images&cd=vfe&opi=89978449&ved=0CAcQrpoMahcKEwiYqeX11tuFAxUAAAAAHQAAAAAQBA">
                 <i class="fa-brands fa-facebook"></i>
             </a>
@@ -60,8 +80,8 @@
                 <i class="fa-brands fa-instagram"></i>
             </a>
         </div>
-    </footer>    
-    </main>
+    </div>
+</footer>    
 
 
 

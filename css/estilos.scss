@@ -1,0 +1,80 @@
+.navbar{
+    background-color: rgb(60, 60, 244);
+    height: auto;
+        .nav-link{
+            font-size: 20px;
+            color: white !important;
+            padding: 0px 20px !important;
+        }
+            .nav-link:hover{
+                color: orange !important;
+                scale: 1.2;
+            }
+                .navbar-brand{
+                font-size: 28px;
+                }
+                    .navbar-brand:hover{
+                    color: orange !important;
+                    }
+                        .collapse{
+                            display: flex;
+                            justify-content: flex-end;
+                        }
+}
+
+.jumbotron{
+    background-image: url(./Images/Background1.jpg);
+    background-position: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+h2{
+    text-align: center;
+    padding: 20px;
+    color: black;
+    text-shadow: 0 0 8px white;
+}
+
+.lado-izq{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+        p{
+            width: 80%;
+        }
+}
+
+.lado-der{
+    background-image: url(./Images/imagen-lado-der.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+
+.footer{
+    background-color: rgb(60, 60, 244);
+    text-align: center;
+    height: auto;
+    p{
+        color: white;
+    }
+        .redes{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+        }
+            i{
+                color: white;
+                font-size: 28px;
+                letter-spacing: 25px;
+            }
+                i:hover{
+                    color: orange;
+                    scale: 1.2;
+                }
+}
